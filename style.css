@@ -1,0 +1,44 @@
+
+.container{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    padding: 7.8px;
+    width: fit-content;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(112, 219, 25);
+    width: 100%;
+    font-weight: 500;
+    align-items: center;
+    margin-top: -0.60%;
+    margin-left: -0.60%;
+}
+
+#mosaico{
+    margin-left: 15px;
+}
+
+.alegria{
+    width: 150px;
+    margin: 15px;
+}
+
+.botao1{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    width: 180px;
+    height: 20px;    
+    padding: 20px;
+    background-color: rgb(173, 154, 43);    
+}
+.botao1:hover {
+    background-color: #eecb08;
+}
+
+.legenda-botao1{
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
