@@ -2,7 +2,6 @@
 .container{
     font-size: 35px;
     display: flex;
-    justify-content: center;
     padding: 7.8px;
     width: fit-content;
     flex-direction: column;
@@ -17,11 +16,26 @@
 
 #mosaico{
     margin-left: 15px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    
 }
 
 .alegria{
     width: 150px;
-    margin: 15px;
+    
+}
+
+.tristeza{
+    width: 150px;
+    margin-left: 100px;
+}
+
+.tristeza-container{
+    display: flex;
+    align-items: center;
+
 }
 
 .botao1{
@@ -37,8 +51,25 @@
     background-color: #eecb08;
 }
 
-.legenda-botao1{
+.botao2{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    width: 180px;
+    height: 20px;    
+    padding: 20px;
+    margin-left: 270px;
+    margin-top: -43px;
+    background-color: rgb(173, 154, 43); 
+}
+
+.botao2:hover {
+    background-color: #eecb08;
+}
+
+.legenda-botao1, .legenda-botao2{
     font-size: 16px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
