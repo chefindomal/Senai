@@ -8,27 +8,59 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body style="background-image: url(./pictures/pisca.gif); background-size: 25%" ;>
 
     <div class="container">
-        <div class="titulo">❤️Emoções❤️</div>
+        <div class="titulo">Como Você Se Sente Hoje?</div>
     </div>
 
     <div id="mosaico">
-        <img class="alegria" src="./pictures/pngwing.com.png">
-        <div class="triteza-container">
-            <img class="tristeza" src="./pictures/tristeza.png"></img>
-        </div>
+    <img class="alegria" src="./pictures/pngwing.com.png">
+    <div class="triteza-container">
+        <img class="tristeza" src="./pictures/tristeza.png"></img>
+    </div>
+    <img class="raiva" src="./pictures/Raiva.png"></img>
+    <img class="medo" src="./pictures/medo.png"></img>
+    <img class="ansiedade" src="./pictures/ansiedade.png"></img>
+    <img class="tedio" src="./pictures/tedio.png"></img>
     </div>
 
-    <button class="botao1">
-    <div class="legenda-botao1">Se Estiver Alegre</div>
-    </button>
+    <div class="botao-container">
+        <button class="botao1" onclick="showPhrase()">
+            <div class="legenda-botao1">Alegria</div>
+        </button>
 
-    <button class="botao2">
-    <div class="legenda-botao2">Se Estiver Triste</div>
-    </button>
-
+        <style>
+            .phrase {
+                display: none; /* Escondida inicialmente */
+                font-size: 20px;
+            }
+        </style>
+        <div class="phrase" id="phrase">oioioioioi</div>
+        <script>
+            function showPhrase() {
+                document.querySelector('.botao1').style.display = 'none'; // Hide button
+                document.getElementById('phrase').style.display = 'block'; // Show phrase
+            }
+        </script>
+    
+        <button class="botao2">
+            <div class="legenda-botao2">Tristeza</div>
+        </button>
+        <button class="botao3">
+            <div class="legenda-botao3">Raiva</div>
+        </button>
+        <button class="botao4">
+            <div class="legenda-botao4">Medo</div>
+        </button>
+        <button class="botao5">
+            <div class="legenda-botao5">Ansiedade</div>
+        </button>
+        <button class="botao6">
+            <div class="legenda-botao6">Tédio</div>
+        </button>
+    </div>
+    
 
 
 

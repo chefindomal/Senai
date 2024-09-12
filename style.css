@@ -6,7 +6,8 @@
     width: fit-content;
     flex-direction: column;
     text-align: center;
-    background-color: rgb(112, 219, 25);
+    background-color: rgb(132, 233, 224);
+    font-family: 'Times New Roman', Times, serif;
     width: 100%;
     font-weight: 500;
     align-items: center;
@@ -15,7 +16,7 @@
 }
 
 #mosaico{
-    margin-left: 15px;
+    margin-left: 50px;
     display: flex;
     align-items: center;
     gap: 20px;
@@ -38,6 +39,31 @@
 
 }
 
+.raiva{
+    width: 170px;
+    margin-left: 100px;
+}
+
+.medo{
+    width: 125px;
+    margin-left: 100px;
+}
+
+.ansiedade{
+    width: 200px;
+    margin-left: 100px;
+}
+
+.tedio{
+    width: 150px;
+    margin-left: -750px;
+    margin-bottom: -700px;
+}
+
+.botao-container{
+    margin-left: 35px;
+}
+
 .botao1{
     display: flex;
     justify-content: center; /* Centraliza o conteúdo horizontalmente */
@@ -45,10 +71,7 @@
     width: 180px;
     height: 20px;    
     padding: 20px;
-    background-color: rgb(173, 154, 43);    
-}
-.botao1:hover {
-    background-color: #eecb08;
+    background-color: rgb(245, 226, 59);    
 }
 
 .botao2{
@@ -60,14 +83,58 @@
     padding: 20px;
     margin-left: 270px;
     margin-top: -43px;
-    background-color: rgb(173, 154, 43); 
+    background-color: rgb(10, 71, 151); 
 }
 
-.botao2:hover {
-    background-color: #eecb08;
+.botao3{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    width: 180px;
+    height: 20px;    
+    padding: 20px;
+    margin-left: 550px;
+    margin-top: -43px;
+    background-color: rgb(202, 31, 31); 
 }
 
-.legenda-botao1, .legenda-botao2{
+.botao4{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    width: 180px;
+    height: 20px;    
+    padding: 20px;
+    margin-left: 830px;
+    margin-top: -43px;
+    background-color: rgb(159, 46, 211); 
+}
+
+.botao5{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    width: 180px;
+    height: 20px;    
+    padding: 20px;
+    margin-left: 1110px;
+    margin-top: -43px;
+    background-color: rgb(224, 118, 47); 
+}
+
+.botao6{
+    display: flex;
+    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    align-items: center;
+    width: 180px;
+    height: 20px;    
+    padding: 20px;
+    margin-left: 560px;
+    margin-top: 320px;
+    background-color: rgb(73, 112, 197); 
+}
+
+.legenda-botao1, .legenda-botao2, .legenda-botao3, .legenda-botao4, .legenda-botao5, .legenda-botao6{
     font-size: 16px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
