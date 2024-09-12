@@ -15,56 +15,108 @@
     </div>
 
     <div id="mosaico">
-    <img class="alegria" src="./pictures/pngwing.com.png">
-    <div class="triteza-container">
-        <img class="tristeza" src="./pictures/tristeza.png"></img>
-    </div>
-    <img class="raiva" src="./pictures/Raiva.png"></img>
-    <img class="medo" src="./pictures/medo.png"></img>
-    <img class="ansiedade" src="./pictures/ansiedade.png"></img>
-    <img class="tedio" src="./pictures/tedio.png"></img>
-    </div>
+            <div class="container-img">
+                <img class="alegria" src="./pictures/pngwing.com.png">
+                <button class="botao1" onclick="showPhrase1()">
+                    <div class="legenda-botao1">Alegria</div>
+                </button>
+                <div class="phrase1" id="phrase1">
+                    oioioioioi
+                </div>
+            </div>
 
-    <div class="botao-container">
-        <button class="botao1" onclick="showPhrase()">
-            <div class="legenda-botao1">Alegria</div>
-        </button>
+            <div class="container-img2">
+                <img class="tristeza" src="./pictures/tristeza.png"></img>
+                <button class="botao2" onclick="showPhrase2()">
+                    <div class="legenda-botao2">Tristeza</div>
+                </button>
+                <div class="phrase2" id="phrase2">eegewg</div>
+                    
+                </div>
 
-        <style>
-            .phrase {
-                display: none; /* Escondida inicialmente */
-                font-size: 20px;
-            }
-        </style>
-        <div class="phrase" id="phrase">oioioioioi</div>
-        <script>
-            function showPhrase() {
+                <div class="container-img3">
+                    <img class="raiva" src="./pictures/Raiva.png"></img>
+                    <button class="botao3"onclick="showPhrase3()">
+                        <div class="legenda-botao3">Raiva</div>
+                    </button>
+                    <div class="phrase3" id="phrase3">oi</div>
+                    
+                </div>
+
+                <div class="container-img4">
+                    <img class="medo" src="./pictures/medo.png"></img>       
+                        <button class="botao4" onclick="showPhrase4()">
+                            <div class="legenda-botao4">Medo</div>
+                        </button>
+                        <div class="phrase4" id="phrase4">oi</div>
+                            
+                </div>
+
+                <div class="container-img5">
+                    <img class="ansiedade" src="./pictures/ansiedade.png"></img>         
+                        <button class="botao5" onclick="showPhrase5()">
+                            <div class="legenda-botao5">Ansiedade</div>
+                        </button>
+                        <div class="phrase5" id="phrase5">oi</div>
+                            
+                </div>
+                    
+                <div class="container-img6">
+                    <img class="tedio" src="./pictures/tedio.png"></img>
+                    <button class="botao6" onclick="showPhrase6()">
+                        <div class="legenda-botao6">Tédio</div>
+                    </button>
+                    <div class="phrase6" id="phrase6">
+                    oi
+                    </div>
+                </div>
+
+            </div>
+    <div>   
+        <script>    
+            function showPhrase1() {
                 document.querySelector('.botao1').style.display = 'none'; // Hide button
-                document.getElementById('phrase').style.display = 'block'; // Show phrase
+                document.getElementById('phrase1').style.display = 'block'; // Show phrase
             }
         </script>
+
+    <script>    
+        function showPhrase2() {
+            document.querySelector('.botao2').style.display = 'none'; // Hide button
+            document.getElementById('phrase2').style.display = 'block'; // Show phrase
+        }
+    </script>
     
-        <button class="botao2">
-            <div class="legenda-botao2">Tristeza</div>
-        </button>
-        <button class="botao3">
-            <div class="legenda-botao3">Raiva</div>
-        </button>
-        <button class="botao4">
-            <div class="legenda-botao4">Medo</div>
-        </button>
-        <button class="botao5">
-            <div class="legenda-botao5">Ansiedade</div>
-        </button>
-        <button class="botao6">
-            <div class="legenda-botao6">Tédio</div>
-        </button>
-    </div>
+    <script>    
+        function showPhrase3() {
+            document.querySelector('.botao3').style.display = 'none'; // Hide button
+            document.getElementById('phrase3').style.display = 'block'; // Show phrase
+        }
+    </script>
     
+    <script>    
+        function showPhrase4() {
+            document.querySelector('.botao4').style.display = 'none'; // Hide button
+            document.getElementById('phrase4').style.display = 'block'; // Show phrase
+        }
+    </script>
+    
+    <script>    
+        function showPhrase5() {
+            document.querySelector('.botao5').style.display = 'none'; // Hide button
+            document.getElementById('phrase5').style.display = 'block'; // Show phrase
+        }
+    </script>
+    
+    <script>    
+        function showPhrase6() {
+            document.querySelector('.botao6').style.display = 'none'; // Hide button
+            document.getElementById('phrase6').style.display = 'block'; // Show phrase
+        }
+    </script>
+</div>
 
-
-
-
+    
 </body>
 
 </html>

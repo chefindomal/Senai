@@ -1,6 +1,6 @@
 
 .container{
-    font-size: 35px;
+    font-size: 25px;
     display: flex;
     padding: 7.8px;
     width: fit-content;
@@ -20,123 +20,205 @@
     display: flex;
     align-items: center;
     gap: 20px;
-    
+}
+
+@media (max-width: 767px) {
+    #mosaico {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        width: 400px;
+        margin-top: -8px;
+        margin-left: -8px;
+        margin-right: -8px;
+    }
 }
 
 .alegria{
     width: 150px;
-    
 }
 
 .tristeza{
     width: 150px;
-    margin-left: 100px;
-}
-
-.tristeza-container{
-    display: flex;
-    align-items: center;
-
 }
 
 .raiva{
     width: 170px;
-    margin-left: 100px;
 }
 
 .medo{
     width: 125px;
-    margin-left: 100px;
 }
 
 .ansiedade{
     width: 200px;
-    margin-left: 100px;
 }
 
 .tedio{
     width: 150px;
-    margin-left: -750px;
-    margin-bottom: -700px;
 }
 
-.botao-container{
-    margin-left: 35px;
-}
 
 .botao1{
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
     align-items: center;
     width: 180px;
     height: 20px;    
     padding: 20px;
-    background-color: rgb(245, 226, 59);    
+    background-color: rgb(245, 226, 59);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+.botao1:hover {
+    background-color: rgb(187, 174, 56);
 }
 
 .botao2{
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
     align-items: center;
     width: 180px;
     height: 20px;    
     padding: 20px;
-    margin-left: 270px;
-    margin-top: -43px;
+    margin-top: 10px;
     background-color: rgb(10, 71, 151); 
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
 
 .botao3{
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
     align-items: center;
     width: 180px;
     height: 20px;    
     padding: 20px;
-    margin-left: 550px;
-    margin-top: -43px;
+    margin-top: 10px;
     background-color: rgb(202, 31, 31); 
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
 
 .botao4{
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
     align-items: center;
     width: 180px;
     height: 20px;    
+    margin-top: 10px;
     padding: 20px;
-    margin-left: 830px;
-    margin-top: -43px;
     background-color: rgb(159, 46, 211); 
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
 
 .botao5{
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
     align-items: center;
     width: 180px;
     height: 20px;    
+    margin-top: 10px;
     padding: 20px;
-    margin-left: 1110px;
-    margin-top: -43px;
-    background-color: rgb(224, 118, 47); 
+    background-color: rgb(224, 118, 47);
+    transition: 0.3s ease-in;
+    cursor: pointer; 
 }
 
 .botao6{
     display: flex;
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center;
     align-items: center;
     width: 180px;
     height: 20px;    
+    margin-top: 10px;
     padding: 20px;
-    margin-left: 560px;
-    margin-top: 320px;
     background-color: rgb(73, 112, 197); 
+    transition: 0.3s ease-in;
+    cursor: pointer;
 }
 
 .legenda-botao1, .legenda-botao2, .legenda-botao3, .legenda-botao4, .legenda-botao5, .legenda-botao6{
     font-size: 16px;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.phrase1 {
+    display: none;
+    font-size: 20px;
+    height: 44px;
+}
+
+.phrase2 {
+    display: none;
+    font-size: 20px;
+    height: 44px;
+}
+
+.phrase3 {
+    display: none;
+    font-size: 20px;
+    height: 44px;
+}
+
+.phrase4 {
+    display: none;
+    font-size: 20px;
+    height: 44px;
+}
+
+.phrase5 {
+    display: none;
+    font-size: 20px;
+    height: 44px;
+}
+
+.phrase6 {
+    display: none;
+    font-size: 20px;
+    height: 44px;
+}
+
+.container-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-img6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
